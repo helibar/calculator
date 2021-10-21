@@ -16,6 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    where.exe npm
     echo "Hello"
     npm install
     npm run build
