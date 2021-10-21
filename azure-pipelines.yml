@@ -17,11 +17,7 @@ steps:
 
 - powershell: |
     npm install
-    echo "After install"
+    npm run build
     npm run test
-
-    #npm run build
   displayName: 'npm install, build, and test'
 
-- script: |
-     npm run test
