@@ -17,7 +17,7 @@ steps:
 
 - script: |
     npm install
-    eho "After install"
+    echo "After install"
     npm run test
 
     #npm run build
