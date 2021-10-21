@@ -16,6 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    echo "Hello"
     npm install
     npm run build
     npm run test
