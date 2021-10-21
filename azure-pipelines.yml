@@ -19,6 +19,6 @@ steps:
     where.exe npm
     echo "Hello"
     npm install
-    npm run build
     npm run test
+    npm run build
   displayName: 'npm install, build, and test'
