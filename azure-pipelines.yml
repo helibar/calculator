@@ -16,10 +16,10 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    where.exe npm
-    echo "Hello"
     npm install
-    
+    eho "After install"
+    npm run test
+
     #npm run build
   displayName: 'npm install, build, and test'
 
